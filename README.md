@@ -1,31 +1,67 @@
-# How to use this template
-Template for repositories for v6 allocators. Please ensure you fill out the Readme file with correct information, within 2 weeks of being accepted as an allocator. Remove the this top header to start with your allocator name
-
-# Allocator Bookeeping repository for <Allocator Name>
-_Replace <Allocator Name> with your Allocator's name_
+# Allocator Bookkeeping repository for JupiterDao
 
 ## Allocator JSON Link
-_put here a link to your allocator json from https://github.com/filecoin-project/Allocator-Registry/tree/main/Allocators_
+[https://github.com/filecoin-project/Allocator-Registry/tree/main/Allocators/XXX.json](https://github.com/filecoin-project/Allocator-Registry/tree/main/Allocators/xxx.json)
 
-## Client Dilligence
-_**YOU SHOULD HAVE PUT INFO IN THE AIRTABLE FORM, YOU CAN COPY IT HERE**. Describe your pathway's mechanism for verifying your clients and establishing initial trust. How will you mitigate sybil attacks? For example if you are proposing an automated pathway what rate limits or deterministics will you use? If you are working with enterprise or paying clients, how will you verify the authenticity of their data ownership claims? How will you provide evidence and proof to the Governance Team for auditing your client diligence?_
+## Client Diligence
+
+JupiterDao follows a comprehensive and structured client verification process:
+
+1. **KYC/KYB Verification:**
+    - All clients must complete strict KYC/KYB verification using trusted third-party tools (e.g., "toggle").
+    - Required information includes real-name identity, GitHub, and Slack accounts.
+2. **Enterprise Client Requirements:**
+    - Enterprise clients must provide a business license, authorization letter, and sample data.
+    - Additional verification of organizational structure and key stakeholders.
+3. **Sybil Attack Mitigation:**
+    - Rate limits and allocation caps are enforced.
+    - Each identity is checked to avoid duplicate or fake applications.
+4. **Audit Readiness:**
+    - All verification materials and procedures are documented and available for governance audits.
 
 ## Description of Data Diligence
-_**YOU SHOULD HAVE PUT INFO IN THE AIRTABLE FORM, YOU CAN COPY IT HERE**. Describe how you will perform data diligence to verify your clients are within program scope. How will you ensure the data meets local & regional legal requirements and the client is the data owner? What types of data sampling will you perform? What tools will you use to confirm the data in deals matches initial client claims? What proof of this diligence can you show the Governance team during an audit?_
+
+Our data diligence ensures legal compliance and data authenticity:
+
+1. **Business Scope and Ownership Verification:**
+    - Use third-party KYB services to confirm enterprise legitimacy.
+    - Clients provide supporting documents and data ownership proof.
+2. **Legal Compliance:**
+    - Regional and local data regulations are reviewed for every client.
+    - Legal documentation and client commitments are required.
+3. **Data Sampling & Verification:**
+    - Clients must submit data samples during application.
+    - We use tools (e.g., Lotus, CID Checker) to randomly verify stored data matches client claims.
+4. **Audit Trail:**
+    - All diligence actions, CID sampling records, and verification evidence are logged and retrievable for audits.
 
 ## Short description of pathway for clients
-_In your own words why should a client use your allocator? We intend to display this information in [fil.org/filecoin-plus/allocators](https://fil.org/filecoin-plus/allocators), so this is how you can distinguish yourself from other allocators_
+
+JupiterDao provides a secure, compliant, and transparent DataCap allocation pathway, combining strict verification with efficient response. We help clients meet regulatory requirements while ensuring data integrity and fair allocation.
 
 ## Contact info
-_How can a client contact you? Give here your Slack ID, emails or whatever contact info you would like to share_
 
-## Detailed Allocator policies, procedures, and requirements.
+- Slack: acumes
+- Email: 1256028890@qq.com
+- GitHub: [Acumes](https://github.com/Acumes)
 
-## Risk mitigation strategies 
-_What is the processes for protecting your organization, reputation, and pathway from abuse. For example, what Operational Security (OpSec) standards, user agreements, alerts, or throttling mechanisms will you employ?_ 
+## Detailed Allocator policies, procedures, and requirements
 
-## Dispute Resolutions 
-_A dispute within the context of DataCap allocation refers to any contention or disagreement arising between parties involved in the storage and retrieval of data on the Filecoin network. This could involve discrepancies over DataCap distribution, disagreements on data compliance with stated parameters, or conflicts over the execution of storage deals. Disputes may be internal, involving yourself and your client, or external, where you will need to defend your decisions against another active allocator or the Fil+ Governance Team._
+- Minimum 5 storage providers per dataset, distributed across different regions.
+- Single client DataCap allocation capped at 10%.
+- All allocation and verification records are fully auditable.
+
+## Risk mitigation strategies
+
+- Mandatory KYC/KYB and data sampling for all clients.
+- Allocation caps and rate-limiting to prevent abuse and Sybil attacks.
+- Confidential handling of all sensitive information.
+- Continuous monitoring of allocation and client behavior.
+
+## Dispute Resolutions
+
+Clients can submit disputes via Slack or email. We respond within 48 hours, investigate transparently, and escalate to the Fil+ Governance Team if necessary. All steps are documented for accountability.
 
 ## Compliance Audit Check
-_How do you plan to ensure that your clients, and the storage providers they interact with are all in compliance with both program-wide and pathway specific requirements._
+
+We retain all KYC/KYB, data verification, allocation, and storage proof records for audit. Regular internal reviews and readiness for governance or community spot checks guarantee ongoing compliance.
