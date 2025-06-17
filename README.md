@@ -31,7 +31,7 @@ Our data diligence ensures legal compliance and data authenticity:
     - Legal documentation and client commitments are required.
 3. **Data Sampling & Verification:**
     - Clients must submit data samples during application.
-    - We use tools (e.g., Lotus, CID Checker) to randomly verify stored data matches client claims.
+    - We use tools (e.g., lassie,boost, CID Checker) to randomly verify stored data matches client claims.
 4. **Audit Trail:**
     - All diligence actions, CID sampling records, and verification evidence are logged and retrievable for audits.
 
